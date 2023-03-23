@@ -157,7 +157,7 @@ body .header-zah{
 
 @keyframes slideInLeft {
     from {
-        transform: translateX(-25px);
+        transform: translateX(-30px);
     }
     to {
         transform: 0;
@@ -346,17 +346,18 @@ body .header-zah{
 
 .best-zah .best-first{
     margin-top: 3rem;
+    padding: 2rem 2rem;
 }
 
-.best-zah .zahid{
+/* .best-zah .zahid{
     gap: 1rem;
-}
+} */
 
-.best-zah .section-best-img{
+.best-zah .best-first .section-best-img{
     display: flex;
 }
 
-.best-zah .section-best-img .best-one{
+.best-zah .best-first .section-best-img .best-one{
     position: relative;
     align-items: flex-end;
     margin-left: 35%;
@@ -365,32 +366,37 @@ body .header-zah{
     margin-top: 3rem;
 }
 
-.best-zah .section-best-img .best-two{
+.best-zah  .best-first .section-best-img .best-two{
     position: absolute;
-    margin-left: 25%;
+    margin-left: 23%;
     margin-top: 4rem;
     margin-bottom: 1rem;
+    animation: slideUp 1s ease-in;
+}
+
+.best-zah .best-first .section-best-data{
+    margin-right: 3rem;
 }
 
 
-.best-zah .section-best-data .best-data-head{
+.best-zah .best-first .section-best-data .best-data-head{
     font-size: 1.8rem;
     font-weight: 300;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
 
-.best-zah .section-best-data .best-data-head-two{
+.best-zah .best-first .section-best-data .best-data-head-two{
     font-size: 4rem;
     padding: 3px 3px;
     text-transform: uppercase;
 }
 
-.best-zah .section-best-data .best-data-head-two .num{
+.best-zah .best-first .section-best-data .best-data-head-two .num{
     color: #363636;
 }
 
-.best-zah .section-best-data .best-data-para{
+.best-zah .best-first .section-best-data .best-data-para{
     font-size: 1.5rem;
     font-weight: 300;
     word-spacing: 2px;
@@ -400,7 +406,7 @@ body .header-zah{
     margin-top: 1rem;
 }
 
-.best-zah .section-best-data .best-btn h3{
+.best-zah .best-first .section-best-data .best-btn h3{
     border: 2px solid #e2e0d8;
     padding: 1rem;
     font-size: 15px;
@@ -414,8 +420,262 @@ body .header-zah{
     margin: 2rem 2rem;
 }
 
-.best-zah .section-best-data .best-btn h3:hover{
+.best-zah .best-first .section-best-data .best-btn h3:hover{
     color: #BE9E21;
     border: 2px solid #BE9E21;
 }
 
+.best-zah .best-first .section-best-data-second{
+    text-align: end;
+}
+
+.best-zah .best-first .section-best-data-second  .best-data-head-second{
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.best-zah .best-first .section-best-data-second .best-data-head-two-second{
+    font-size: 4rem;
+    padding: 3px 3px;
+    text-transform: uppercase;
+}
+
+.best-zah .best-first .section-best-data-second .best-data-head-two-second .num{
+    color: #363636;
+}
+
+.best-zah .best-first .section-best-data-second .best-data-para-second{
+    font-size: 1.5rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.best-zah .best-first .section-best-data-second .best-btn-second h3{
+    border: 2px solid #e2e0d8;
+    padding: 1rem;
+    font-size: 15px;
+    transition: 0.4s;
+    width: 30%;
+    cursor: pointer;
+    color: #ebe9e9;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 70%;
+}
+
+.best-zah .best-first .section-best-data-second .best-btn-second h3:hover{
+    color: #BE9E21;
+    border: 2px solid #BE9E21;
+}
+
+.best-zah .best-first .section-best-img .best-three{
+    position: relative;
+    align-items: flex-end;
+    margin-left: 35%;
+    width: 55%;
+    box-shadow: -50px -50px 10px #1D1D1D;
+    margin-top: 3rem;
+}
+
+.best-zah  .best-first .section-best-img .best-four{
+    position: absolute;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+    background-color: #2C2C2C;
+    padding: 3rem 3rem;
+    animation: slideInLeft 1s ease-in;
+}
+
+.best-zah .best-first .section-best-img .best-five{
+    position: relative;
+    align-items: flex-end;
+    margin-left: 35%;
+    width: 55%;
+    box-shadow: -50px -50px 10px #1D1D1D;
+    margin-top: 3rem;
+}
+
+.best-zah  .best-first .section-best-img .best-six{
+    position: absolute;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+    background-color: #2C2C2C;
+    padding: 3rem 3rem;
+    animation: slideInLeft 1s ease-in;
+}
+
+@keyframes slideUp {
+    from{
+        transform: translateY(30px) 
+    }
+	to { transform: translateY(0) }
+}
+
+/* process */
+.process-zah{
+    min-height: 130vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(40, 40, 41, 0.1), rgba(10, 10, 14, 0.3)), url(../img/process.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.process-zah .process-section{
+    margin-left: 55%;
+    padding-top: 20%;
+}
+
+.process-zah .process-section .pro-head{
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #BE9E21;
+}
+
+.process-zah .process-section .pro-head-two{
+    font-weight: 700;
+    font-size: 6rem;
+    padding: 7px 0;
+}
+
+.process-zah .process-section .pro-sec{
+    display: flex;
+}
+
+.process-zah .process-section .pro-para{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.process-zah .process-section .pro-sec .pro-btn{
+    font-size: 2rem;
+    color: #e2e0d8;
+    padding: 1rem 3rem;
+    background-color: #BE9E21;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.process-zah .process-section .pro-sec .pro-btn-rest{
+    font-size: 2rem;
+    color: #e2e0d8;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.process-zah .process-section .pro-big-para{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.process-zah .process-section .pro-big-para .pro-span{
+    font-size: 7rem;
+    color: #363636;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.process-zah .process-section .pro-big-para .pro-small-para{
+    font-size: 2rem;
+    color: #e2e0d8;
+    
+}
+
+.process-zah .process-section .pro-last-btn{
+    margin: 2rem;
+}
+
+.process-zah .process-section .pro-last-btn a{
+    font-size: 2rem;
+    color: #BE9E21;
+    margin: 2rem 0;
+    cursor: pointer;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+
+.process-zah .process-section .pro-last-btn a::after{
+    content: '';
+    width: 4%;
+    height: 2px;
+    background-color: #BE9E21;
+    display: block;
+    margin: 3px 0;
+}
+
+.process-zah .process-section .pro-last-btn a:hover{
+    color: #e2e0d8;
+}
+
+
+/* features */
+.feature-zah{
+    background-color: #131313;
+}
+
+.feature-zah .section-feature{
+    padding: 2rem;
+}
+
+.feature-zah .section-feature .section-feature-data{
+    margin: 1rem;
+    padding: 1rem 2rem;
+}
+
+.feature-zah .section-feature .feature-data-head-one{
+    margin-top: 6rem;
+    color: #BE9E21;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.feature-zah .section-feature .feature-data-head-two{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feature-zah .section-feature .feature-data-para{
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #A6B3B3;
+}
+
+.feature-zah .feature-data-second{
+    padding: 3rem;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.feature-zah .feature-data-second .fet-data{
+    margin: 1rem;
+    padding: 1rem 2rem;
+}
+
+.feature-zah .feature-data-second .fet-data .fat-img-det .fat-det-head{
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 5px 0;
+}
+
+.feature-zah .feature-data-second .fet-data .fat-img-det .fat-det-para{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 2px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: #B3B3B3;
+    padding: 5px 0;
+}
