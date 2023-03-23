@@ -314,3 +314,108 @@ body .header-zah{
     color: #BE9E21;
     background-color: transparent;
 }
+
+
+/* Best */
+.best-zah{
+    background-color: #1D1D1D;
+}
+
+.best-zah .fisrt-head{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 7rem;
+    color: #BE9E21;
+}
+
+.best-zah .second-head{
+    font-weight: 700;
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.best-zah .first-para{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 3rem 3rem;
+    margin-bottom: 2rem !important;
+}
+
+.best-zah .best-first{
+    margin-top: 3rem;
+}
+
+.best-zah .zahid{
+    gap: 1rem;
+}
+
+.best-zah .section-best-img{
+    display: flex;
+}
+
+.best-zah .section-best-img .best-one{
+    position: relative;
+    align-items: flex-end;
+    margin-left: 35%;
+    width: 55%;
+    box-shadow: -50px -50px 10px #2C2C2C;
+    margin-top: 3rem;
+}
+
+.best-zah .section-best-img .best-two{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+
+.best-zah .section-best-data .best-data-head{
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.best-zah .section-best-data .best-data-head-two{
+    font-size: 4rem;
+    padding: 3px 3px;
+    text-transform: uppercase;
+}
+
+.best-zah .section-best-data .best-data-head-two .num{
+    color: #363636;
+}
+
+.best-zah .section-best-data .best-data-para{
+    font-size: 1.5rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.best-zah .section-best-data .best-btn h3{
+    border: 2px solid #e2e0d8;
+    padding: 1rem;
+    font-size: 15px;
+    transition: 0.4s;
+    width: 30%;
+    cursor: pointer;
+    color: #ebe9e9;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.best-zah .section-best-data .best-btn h3:hover{
+    color: #BE9E21;
+    border: 2px solid #BE9E21;
+}
+
