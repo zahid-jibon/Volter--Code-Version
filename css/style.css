@@ -346,7 +346,7 @@ body .header-zah{
 
 .best-zah .best-first{
     margin-top: 3rem;
-    padding: 2rem 2rem;
+    padding: 2rem;
 }
 
 /* .best-zah .zahid{
@@ -679,3 +679,218 @@ body .header-zah{
     color: #B3B3B3;
     padding: 5px 0;
 }
+
+/* create */
+.create-zah{
+    min-height: 120vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(8, 8, 10, 0.3)), url(../img/creat1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.create-zah .create-section{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.create-zah .create-section .crt-haed{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #BE9E21;
+    padding: 7rem 1rem 2rem 1rem;
+    text-transform: uppercase;
+}
+
+.create-zah .create-section .crt-head-big{
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+    padding: 2rem 2rem;
+    text-transform: uppercase;
+}
+
+.create-zah .create-section .crt-para{
+    font-size: 1.7rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.create-zah .create-section .crt-img img{
+    height: 100%;
+    padding-top: 1rem;
+    animation: slideUp 3s ease-in;
+}
+
+.create-zah .create-section .crt-btn{
+    padding: 2rem;
+}
+
+.create-zah .create-section .crt-btn a{
+    background-color: #BE9E21;
+    border: 2px solid #BE9E21;
+    padding: 1rem;
+    font-size: 18px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    cursor: pointer;
+    color: #ebe9e9;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.create-zah .create-section .crt-btn a:hover{
+    color: #BE9E21;
+    background-color: transparent;
+}
+
+/* latest */
+.lat-zah{
+    background-color: #1F1F1F;
+}
+
+.lat-zah .latest-section{
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.lat-zah .latest-section .lat-head{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 7rem 1rem 2rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.lat-zah .latest-section .lat-head-big{
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+    padding: 2rem 2rem;
+    text-transform: uppercase;
+}
+
+.lat-zah .latest-section .lat-para{
+    font-size: 1.7rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.lat-zah .lat-section{
+    padding: 2rem;
+}
+
+.lat-zah .zahid{
+    gap: 4rem;
+}
+
+
+
+.lat-zah .lat-section .lat-img img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.lat-zah .lat-section .lat-img-data .lat-data-one{
+    margin-top: 3rem;
+}
+
+.lat-zah .lat-section .lat-img-data .lat-data-two{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lat-zah .lat-section .lat-img-data .lat-data-two a{
+    color: #61572e;
+}
+
+.lat-zah .lat-section .lat-img-data .lat-data-two a:hover{
+    color: #f1f1f1;
+}
+
+.lat-zah .lat-section .lat-img-data .lat-data-para{
+    font-size: 1.6rem;
+    color: #B3B3B3;
+}
+
+.lat-zah .lat-section .lat-img-data-two{
+    text-align: end;
+}
+
+.lat-zah .lat-section .lat-img-data-two .lat-data-one{
+    margin-top: 3rem;
+}
+
+.lat-zah .lat-section .lat-img-data-two .lat-data-two{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lat-zah .lat-section .lat-img-data-two .lat-data-two a{
+    color: #61572e;
+}
+
+.lat-zah .lat-section .lat-img-data-two .lat-data-two a:hover{
+    color: #f1f1f1;
+}
+
+.lat-zah .lat-section .lat-img-data-two .lat-data-para{
+    font-size: 1.6rem;
+    color: #B3B3B3;
+}
+
+.lat-zah .lat-section a{
+    color: #e2e0d8;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    
+}
+
+.lat-zah .lat-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ebe9e9;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    padding: 12px 20px;
+    font-size: 15px;
+    position: relative;
+    transition: 0.4s;
+    align-items: center;
+    margin-left: 40%;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.lat-zah .lat-btn:hover{
+    color: #BE9E21;
+    border: 2px solid #BE9E21;
+}
+
+
+
+
