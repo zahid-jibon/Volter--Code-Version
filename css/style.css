@@ -532,6 +532,7 @@ body .header-zah{
     background-position: center;
     background-size: cover;
     position: relative;
+    margin-bottom: 0;
 }
 
 .process-zah .process-section{
@@ -621,6 +622,121 @@ body .header-zah{
 .process-zah .process-section .pro-last-btn a:hover{
     color: #e2e0d8;
 }
+
+/* photo */
+#photo-zah{
+    background-color: #1D1D1D;
+    text-align: center;
+}
+
+#photo-zah .photo-sml-head{
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #BE9E21;
+    padding-top: 1rem;
+}
+
+#photo-zah .photo-big-head{
+    font-weight: 700;
+    font-size: 6rem;
+    padding: 7px 0;
+}
+
+#photo-zah .photo-para{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+#photo-zah #slider-zah{
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 45%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: darkgrey;
+    border: 10px solid black;
+}
+
+#photo-zah #slider-zah .slide_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#photo-zah #slider-zah .slide_img img{
+    width: 100%;
+    height: 100%;
+}
+
+#i1,#i2,#i3,#i4,#i5{
+    display: none;
+}
+
+#photo-zah #slider-zah .slide_img .pre{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88, 88, 88, 0.2);
+    z-index: 99;
+    cursor: pointer;
+    left: 0;
+}
+
+#photo-zah #slider-zah .slide_img .nex{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88, 88, 88, 0.2);
+    z-index: 99;
+    cursor: pointer;
+    right: 0;
+}
+
+#photo-zah #slider-zah .circle{
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+#photo-zah #slider-zah .circle .dots{
+    top: -5px;
+    width: 10px;
+    height: 12px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+#photo-zah #slider-zah .slide_img{
+    z-index: -1;
+}
+
+#i1:checked ~ #one-img,
+#i2:checked ~ #two-img,
+#i3:checked ~ #three-img,
+#i4:checked ~ #four-img,
+#i5:checked ~ #five-img{
+    z-index: 9;
+}
+
+#i1:checked ~ .circle #dot1,
+#i2:checked ~ .circle #dot2,
+#i3:checked ~ .circle #dot3,
+#i4:checked ~ .circle #dot4,
+#i5:checked ~ .circle #dot5{
+    background: rgb(2, 2, 2);
+}
+
 
 
 /* features */
